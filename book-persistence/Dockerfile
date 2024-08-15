@@ -1,3 +1,4 @@
+
 FROM maven:3.8-openjdk-17 as builder
 
 COPY src /usr/app/src

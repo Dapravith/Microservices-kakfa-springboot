@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthorPersistenceApplication<author-persistence>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.devtiro.book.AuthorPersistenceApplication",
+            "projectName": "author-persistence",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookPersistenceApplication<book-persistence>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.devtiro.book.BookPersistenceApplication",
+            "projectName": "book-persistence",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

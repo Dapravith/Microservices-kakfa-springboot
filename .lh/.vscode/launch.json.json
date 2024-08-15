@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".vscode/launch.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1723707429848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723707634419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,17 @@\n             \"mainClass\": \"com.devtiro.book.AuthorPersistenceApplication\",\n             \"projectName\": \"author-persistence\",\n             \"args\": \"\",\n             \"envFile\": \"${workspaceFolder}/.env\"\n+        },\n+        {\n+            \"type\": \"java\",\n+            \"name\": \"Spring Boot-BookPersistenceApplication<book-persistence>\",\n+            \"request\": \"launch\",\n+            \"cwd\": \"${workspaceFolder}\",\n+            \"mainClass\": \"com.devtiro.book.BookPersistenceApplication\",\n+            \"projectName\": \"book-persistence\",\n+            \"args\": \"\",\n+            \"envFile\": \"${workspaceFolder}/.env\"\n         }\n     ]\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1723707429848,
+            "name": "Commit-0",
+            "content": "{\n    \"configurations\": [\n        {\n            \"type\": \"java\",\n            \"name\": \"Spring Boot-AuthorPersistenceApplication<author-persistence>\",\n            \"request\": \"launch\",\n            \"cwd\": \"${workspaceFolder}\",\n            \"mainClass\": \"com.devtiro.book.AuthorPersistenceApplication\",\n            \"projectName\": \"author-persistence\",\n            \"args\": \"\",\n            \"envFile\": \"${workspaceFolder}/.env\"\n        }\n    ]\n}"
+        }
+    ]
+}
