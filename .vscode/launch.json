@@ -19,6 +19,16 @@
             "projectName": "book-persistence",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-NotificationsApplication<notifications>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.devtiro.book.NotificationsApplication",
+            "projectName": "notifications",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
